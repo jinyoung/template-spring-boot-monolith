@@ -37,34 +37,3 @@ public {{#isAbstract}}abstract {{/isAbstract}}class {{namePascalCase}}{{#ifConta
 }
 
 {{/isInterface}}
-
-<function>
-
-this.outgoingClassRefs = [
-
-    {
-        relationType: "Generalization",
-        value: {
-            namePascalCase: "Presentation"
-        }
-    },
-
-    {
-        relationType: "Realization",
-        value: {
-            namePascalCase: "Serializable"
-        }
-    },
-
-    {
-        relationType: "Realization",
-        value: {
-            namePascalCase: "Cloneable"
-        }
-    }
-
-
-];
-
-
-</function>

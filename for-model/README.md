@@ -4,13 +4,11 @@ path: for-model
 ---
 # {{name}}
 
-
 <function>
 
 window.$HandleBars.registerHelper('path', function () {
     return this.options.packagePath;
 });
-
 
 window.$HandleBars.registerHelper('ifEquals', function (arg1, arg2, options) {
     return (arg1 == arg2) ? options.fn(this) : options.inverse(this);

@@ -1,3 +1,4 @@
+
 forEach: Aggregate
 path: {{path}}/{{boundedContext.nameCamelCase}}
 fileName: {{namePascalCase}}.java

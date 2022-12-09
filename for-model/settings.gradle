@@ -1,1 +1,5 @@
+forEach: Model
+fileName: settings.gradle
+path: for-model
+---
 rootProject.name = 'demo'
